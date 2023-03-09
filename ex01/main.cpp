@@ -1,5 +1,4 @@
-// #include "Zombie.hpp"
-#include <iostream>
+#include "Zombie.hpp"
 
 int main( void )
 {
@@ -11,7 +10,18 @@ int main( void )
 	std::cout << "Horde Size: " << std::flush;
 	while (std::cin >> N)
 	{
-
+		if (N < 2)
+			std::cout << "Too little. MOAR!" << std::endl;
+		else
+			break ;
+		std::cin.clear();
+		std::cin.ignore();
+		std::cout << "Horde Size: " << std::flush;
 	}
-	std::cout << N << std::endl;
+
+	Zombie *zombHorde = zombieHorde(N, name);
+	for (int i = 0; i < N; i++)
+		zombHorde[i].announce();
+
+	delete[] zombHorde;
 }

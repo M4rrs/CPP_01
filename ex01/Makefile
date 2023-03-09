@@ -1,10 +1,10 @@
-NAME = Zombie
+NAME = zombHorde
 CC = c++
 FLAGS = -Wall -Werror -Wextra -I -std=c++98 -fsanitize=address
 
 RM = rm -rf
 
-SRCS = main.cpp zombie.cpp newZombie.cpp randomChump.cpp
+SRCS = main.cpp Zombie.cpp zombieHorde.cpp
 INC = Zombie.hpp
 
 OBJS = ${SRCS:%.cpp=%.o}
@@ -16,7 +16,7 @@ OBJS = ${SRCS:%.cpp=%.o}
 all: ${NAME}
 
 ${NAME}: ${OBJS}
-	@echo "\n\033[38;5;204mThe Zombies are here!\033[0m"
+	@echo "\n\033[38;5;204mThe Horde is here!\033[0m"
 	@${CC} ${FLAGS} ${OBJS} -o $@
 
 clean:
