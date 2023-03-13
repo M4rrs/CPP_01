@@ -17,9 +17,16 @@ int replace( std::string buff, char **av )
 	}
 	for (int i = 0; i < size; i++)
 	{
-		pos = buff.find(av[2], )
+		pos = buff.find(av[2], i);
+		if (pos == i && pos != -1)
+		{
+			newFile << av[3];
+			i += std::string(av[2]).size() - 1;
+		}
+		else
+			newFile << buff[i];
 	}
-
+	return (0);
 }
 
 int main( int ac, char **av )
@@ -42,7 +49,6 @@ int main( int ac, char **av )
 	}
 	while (!file.eof() && file >> std::noskipws >> c)
 		buff += c;
-	std::cout << buff << std::flush;
 	file.close();
 	return (replace(buff, av));
 }
