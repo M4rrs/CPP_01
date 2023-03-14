@@ -12,7 +12,9 @@ Learning about memory allocation, pointers and references, pointers to members, 
 
 ## Exercise 00:  BraiiiiiiinnnzzzZ
 Create a Zombie class, name the zombies, and the zombies announce themselves.
-The difference is that you deterrmine which zombie is allocated on Stack memory, and the other on Heap memory.
+
+The difference is that you determine which zombie is allocated on Stack memory, and the other on Heap memory.
+
 The zombies must be destroyed when the program ends.
 
 ![Zombie](https://cdn.discordapp.com/attachments/989407433858375683/1085165220965646487/Screenshot_2023-03-14_at_19.37.43.png)
@@ -24,6 +26,7 @@ syntax:
 ```Zombie* zombieHorde( int N, std::string name );```
 
 Allocate N Zombies in a single allocation, name them, and the zombies announce themselves.
+
 Not much difference from Exercise 00.
 
 ![Zombie](https://cdn.discordapp.com/attachments/989407433858375683/1085166676280086559/Screenshot_2023-03-14_at_19.44.44.png)
@@ -48,6 +51,7 @@ This exercise was a little tricky.
 
 ## Exercise 04: Sed is for losers
 This exercise touches on file manipulation.
+
 The program takes in 3 parameters:
 
 	```[ ./sed <filename> <string to replace> <replacement string> ]```
