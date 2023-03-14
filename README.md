@@ -49,4 +49,5 @@ This exercise was a little tricky.
 ## Exercise 04: Sed is for losers
 This exercise touches on file manipulation.
 The program takes in 3 parameters:
+
 	```[ ./sed <filename> <string to replace> <replacement string> ]```
