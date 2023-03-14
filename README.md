@@ -2,11 +2,11 @@
 
 Learning about memory allocation, pointers and references, pointers to members, pointers to member functions, and switch statements.
 
-* [Exercise 00]()
-* [Exercise 01]()
-* [Exercise 02]()
-* [Exercise 03]()
-* [Exercise 04]()
+* [Exercise 00](#exercise-00-braiiiiiiinnnzzzz)
+* [Exercise 01](#exercise-01-moar-brainz)
+* [Exercise 02](#exercise-02-hi-this-is-brain)
+* [Exercise 03](#exercise-03-unnecessary-violence)
+* [Exercise 04](#exercise-04-sed-is-for-losers)
 * [Exercise 05]()
 * [Exercise 06]()
 
@@ -55,3 +55,6 @@ This exercise touches on file manipulation.
 The program takes in 3 parameters:
 
 	```[ ./sed <filename> <string to replace> <replacement string> ]```
+
+## Exercise 05: Harl 2.0
+## Exercise 06: Harl filter
