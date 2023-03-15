@@ -49,12 +49,16 @@ This exercise was a little tricky.
 	* **HumanA** takes the weapon in its constructor, **HumanB** doesn't
 	* **HumanB** may not always have a Weapon, whereas **HumanA** will always be armed.
 
+![Humans](https://cdn.discordapp.com/attachments/989407433858375683/1085397669498851430/Screenshot_2023-03-15_at_11.02.39.png)
 ## Exercise 04: Sed is for losers
 This exercise touches on file manipulation.
 
 The program takes in 3 parameters:
 
 	```[ ./sed <filename> <string to replace> <replacement string> ]```
+![Sed](https://cdn.discordapp.com/attachments/989407433858375683/1085398865055858788/Screenshot_2023-03-15_at_11.07.27.png)
+![File](https://cdn.discordapp.com/attachments/989407433858375683/1085399042638483536/Screenshot_2023-03-15_at_11.08.07.png)
+![newFile](https://cdn.discordapp.com/attachments/989407433858375683/1085399114822463580/Screenshot_2023-03-15_at_11.08.26.png)
 
 ## Exercise 05: Harl 2.0
 ## Exercise 06: Harl filter
